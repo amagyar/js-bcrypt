@@ -23,7 +23,7 @@ define([
 
 ## Vanilla JS Example
 ```javascript
-var bcrypt = new bcrypt();
+var bcrypt = new Bcrypt();
 console.log(bcrypt.gensalt(10));
 ```
 ## Exposed methods
@@ -34,7 +34,7 @@ var hashed = bcrypt.hashpw(password, salt, callback);
 ```
 ### Generating salt
 ```javascript
-var salt = bcrypt.gensalt(log_rounds);
+var salt = crypt.gensalt(log_rounds);
 ```
 ### Check password
 ```javascript
